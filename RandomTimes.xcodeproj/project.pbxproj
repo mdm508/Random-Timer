@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C6A5FDD28D92FA1000EFA66 /* CountdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6A5FDC28D92FA1000EFA66 /* CountdownView.swift */; };
 		0CB6BDF828D903260072EB4A /* RandomTimesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB6BDF728D903260072EB4A /* RandomTimesApp.swift */; };
 		0CB6BDFA28D903260072EB4A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB6BDF928D903260072EB4A /* ContentView.swift */; };
 		0CB6BDFC28D903270072EB4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CB6BDFB28D903270072EB4A /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 		0CB6BE0928D903270072EB4A /* RandomTimesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB6BE0828D903270072EB4A /* RandomTimesTests.swift */; };
 		0CB6BE1328D903270072EB4A /* RandomTimesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB6BE1228D903270072EB4A /* RandomTimesUITests.swift */; };
 		0CB6BE1528D903270072EB4A /* RandomTimesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB6BE1428D903270072EB4A /* RandomTimesUITestsLaunchTests.swift */; };
+		0CE4ACB628D9321E0073E61F /* RollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE4ACB528D9321E0073E61F /* RollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C6A5FDC28D92FA1000EFA66 /* CountdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownView.swift; sourceTree = "<group>"; };
 		0CB6BDF428D903260072EB4A /* RandomTimes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomTimes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CB6BDF728D903260072EB4A /* RandomTimesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomTimesApp.swift; sourceTree = "<group>"; };
 		0CB6BDF928D903260072EB4A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +47,7 @@
 		0CB6BE0E28D903270072EB4A /* RandomTimesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomTimesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CB6BE1228D903270072EB4A /* RandomTimesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomTimesUITests.swift; sourceTree = "<group>"; };
 		0CB6BE1428D903270072EB4A /* RandomTimesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomTimesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0CE4ACB528D9321E0073E61F /* RollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,8 @@
 		0CB6BDF628D903260072EB4A /* RandomTimes */ = {
 			isa = PBXGroup;
 			children = (
+				0C6A5FDC28D92FA1000EFA66 /* CountdownView.swift */,
+				0CE4ACB528D9321E0073E61F /* RollView.swift */,
 				0CB6BDF728D903260072EB4A /* RandomTimesApp.swift */,
 				0CB6BDF928D903260072EB4A /* ContentView.swift */,
 				0CB6BDFB28D903270072EB4A /* Assets.xcassets */,
@@ -257,6 +263,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C6A5FDD28D92FA1000EFA66 /* CountdownView.swift in Sources */,
+				0CE4ACB628D9321E0073E61F /* RollView.swift in Sources */,
 				0CB6BDFA28D903260072EB4A /* ContentView.swift in Sources */,
 				0CB6BDF828D903260072EB4A /* RandomTimesApp.swift in Sources */,
 			);
