@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CA0A1C328E3AB62006BC443 /* CountdownModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA0A1C228E3AB62006BC443 /* CountdownModel.swift */; };
+		0CA0A1C528E3AD6D006BC443 /* CountdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA0A1C428E3AD6D006BC443 /* CountdownView.swift */; };
+		0CA0A1C728E51016006BC443 /* CountdownTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA0A1C628E51016006BC443 /* CountdownTimer.swift */; };
 		0CB6BDF828D903260072EB4A /* RandomTimesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB6BDF728D903260072EB4A /* RandomTimesApp.swift */; };
 		0CB6BDFA28D903260072EB4A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB6BDF928D903260072EB4A /* ContentView.swift */; };
 		0CB6BDFC28D903270072EB4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CB6BDFB28D903270072EB4A /* Assets.xcassets */; };
 		0CB6BDFF28D903270072EB4A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CB6BDFE28D903270072EB4A /* Preview Assets.xcassets */; };
-		0CB6BE0928D903270072EB4A /* RandomTimesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB6BE0828D903270072EB4A /* RandomTimesTests.swift */; };
-		0CB6BE1328D903270072EB4A /* RandomTimesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB6BE1228D903270072EB4A /* RandomTimesUITests.swift */; };
-		0CB6BE1528D903270072EB4A /* RandomTimesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB6BE1428D903270072EB4A /* RandomTimesUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +34,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0CA0A1C228E3AB62006BC443 /* CountdownModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownModel.swift; sourceTree = "<group>"; };
+		0CA0A1C428E3AD6D006BC443 /* CountdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownView.swift; sourceTree = "<group>"; };
+		0CA0A1C628E51016006BC443 /* CountdownTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownTimer.swift; sourceTree = "<group>"; };
 		0CB6BDF428D903260072EB4A /* RandomTimes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomTimes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CB6BDF728D903260072EB4A /* RandomTimesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomTimesApp.swift; sourceTree = "<group>"; };
 		0CB6BDF928D903260072EB4A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0CB6BDFB28D903270072EB4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CB6BDFE28D903270072EB4A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0CB6BE0428D903270072EB4A /* RandomTimesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomTimesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0CB6BE0828D903270072EB4A /* RandomTimesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomTimesTests.swift; sourceTree = "<group>"; };
 		0CB6BE0E28D903270072EB4A /* RandomTimesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomTimesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0CB6BE1228D903270072EB4A /* RandomTimesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomTimesUITests.swift; sourceTree = "<group>"; };
-		0CB6BE1428D903270072EB4A /* RandomTimesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomTimesUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,9 +74,8 @@
 		0CB6BDEB28D903260072EB4A = {
 			isa = PBXGroup;
 			children = (
+				0CA0A1C628E51016006BC443 /* CountdownTimer.swift */,
 				0CB6BDF628D903260072EB4A /* RandomTimes */,
-				0CB6BE0728D903270072EB4A /* RandomTimesTests */,
-				0CB6BE1128D903270072EB4A /* RandomTimesUITests */,
 				0CB6BDF528D903260072EB4A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,6 +95,8 @@
 			children = (
 				0CB6BDF728D903260072EB4A /* RandomTimesApp.swift */,
 				0CB6BDF928D903260072EB4A /* ContentView.swift */,
+				0CA0A1C228E3AB62006BC443 /* CountdownModel.swift */,
+				0CA0A1C428E3AD6D006BC443 /* CountdownView.swift */,
 				0CB6BDFB28D903270072EB4A /* Assets.xcassets */,
 				0CB6BDFD28D903270072EB4A /* Preview Content */,
 			);
@@ -108,23 +109,6 @@
 				0CB6BDFE28D903270072EB4A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		0CB6BE0728D903270072EB4A /* RandomTimesTests */ = {
-			isa = PBXGroup;
-			children = (
-				0CB6BE0828D903270072EB4A /* RandomTimesTests.swift */,
-			);
-			path = RandomTimesTests;
-			sourceTree = "<group>";
-		};
-		0CB6BE1128D903270072EB4A /* RandomTimesUITests */ = {
-			isa = PBXGroup;
-			children = (
-				0CB6BE1228D903270072EB4A /* RandomTimesUITests.swift */,
-				0CB6BE1428D903270072EB4A /* RandomTimesUITestsLaunchTests.swift */,
-			);
-			path = RandomTimesUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +241,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CA0A1C328E3AB62006BC443 /* CountdownModel.swift in Sources */,
 				0CB6BDFA28D903260072EB4A /* ContentView.swift in Sources */,
+				0CA0A1C528E3AD6D006BC443 /* CountdownView.swift in Sources */,
+				0CA0A1C728E51016006BC443 /* CountdownTimer.swift in Sources */,
 				0CB6BDF828D903260072EB4A /* RandomTimesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,7 +253,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CB6BE0928D903270072EB4A /* RandomTimesTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +260,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CB6BE1528D903270072EB4A /* RandomTimesUITestsLaunchTests.swift in Sources */,
-				0CB6BE1328D903270072EB4A /* RandomTimesUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
